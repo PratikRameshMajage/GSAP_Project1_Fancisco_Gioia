@@ -1,8 +1,12 @@
+@font-face {
+    font-family: PP woodland;
+    src: url(font/PPWoodland-Regular.ttf);
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Gilroy';
+    font-family: PP woodland;
 }
 html, body{
     height: 100%;

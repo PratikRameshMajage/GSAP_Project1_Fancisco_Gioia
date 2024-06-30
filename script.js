@@ -11,7 +11,8 @@ tl.from("img", {
     rotate: 45,
     opacity: .0,
     duration: .3,
-    stagger: 1,
+    stagger: .5,
+    ease: Power1
 })
 tl.from("h1", {
     x: -80,
